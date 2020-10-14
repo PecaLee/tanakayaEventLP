@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>田なか屋本店 五反田店 10周年記念イベント</title>
     <link rel="stylesheet" href="src/css/style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"
+      integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA="
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="pc">
@@ -110,7 +120,176 @@
       <div class="line raffle">
         <img src="src/img/lines/raffle.png" alt="" />
       </div>
-      <div class="raffle_box"></div>
+      <div class="raffle_box">
+        <form
+          action="https://docs.google.com/forms/d/e/1FAIpQLSddwC2_XjHy-yy_VhVLHfLQ7gQp1YnOvCuNRvBNwO-kCW4wOw/formResponse"
+          target="_self"
+          id="bootstrapForm"
+          method="POST"
+        >
+          <fieldset>
+            <h2>
+              田なか屋本店
+              創業10周年記念！「本場仙台牛タン定食」の無料試食会に申し込み<br /><small
+                >田なか屋本店
+                五反田で「本場仙台牛タン定食」の無料試食会に50組(100名様)を招待します。</small
+              >
+            </h2>
+          </fieldset>
+
+          <!-- Field type: "short" id: "1110357670" -->
+          <fieldset>
+            <legend for="1110357670">お名前 (漢字)</legend>
+            <div class="form-group">
+              <input
+                id="1649752412"
+                type="text"
+                name="entry.1649752412"
+                class="form-control"
+                placeholder="田中　本助"
+                required
+              />
+            </div>
+          </fieldset>
+
+          <!-- Field type: "short" id: "721236863" -->
+          <fieldset>
+            <legend for="721236863">お名前 (フリガナ)</legend>
+            <div class="form-group">
+              <input
+                id="1717313382"
+                type="text"
+                name="entry.1717313382"
+                class="form-control"
+                placeholder="タナカ　ホンスケ"
+                required
+              />
+            </div>
+          </fieldset>
+
+          <!-- Field type: "short" id: "124985133" -->
+          <fieldset>
+            <legend for="124985133">Instagram(インスタグラム) ID</legend>
+            <div class="form-group">
+              <input
+                id="1175952310"
+                type="text"
+                name="entry.1175952310"
+                class="form-control"
+                placeholder="@tanakaya_gotanda"
+                required
+              />
+            </div>
+          </fieldset>
+
+          <!-- Field type: "choices" id: "1622781906" -->
+          <fieldset>
+            <legend for="1622781906">
+              田なか屋本店五反田店(tanakaya_gotanda)のインスタグラムアカウントをフォローしてますか？
+            </legend>
+            <div class="form-group radio">
+              <div class="radio">
+                <label>
+                  <input
+                    type="radio"
+                    name="entry.149970150"
+                    value="はい"
+                    required
+                  />
+                  <span>はい</span>
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input
+                    type="radio"
+                    name="entry.149970150"
+                    value="いいえ"
+                    required
+                  />
+                  <span>いいえ</span>
+                </label>
+              </div>
+            </div>
+          </fieldset>
+
+          <!-- Field type: "short" id: "2115962045" -->
+          <fieldset>
+            <legend for="2115962045">お電話番号</legend>
+            <div class="form-group">
+              <input
+                id="326851470"
+                type="text"
+                name="entry.326851470"
+                class="form-control"
+                placeholder="070-0000-0000"
+              />
+            </div>
+          </fieldset>
+
+          <!-- Field type: "short" id: "166536468" -->
+          <fieldset>
+            <legend for="166536468">
+              メールアドレス(※
+              DMから当選連絡が繋がらない場合、下記のメールアドレスにご連絡させていただきます。)
+            </legend>
+            <div class="form-group">
+              <input
+                id="61244465"
+                type="text"
+                name="entry.61244465"
+                class="form-control"
+                placeholder="tanakahonsuke@tanakayahonten.com"
+              />
+            </div>
+          </fieldset>
+
+          <!-- Field type: "choices" id: "1385200758" -->
+          <fieldset>
+            <legend for="1385200758">
+              来店後、インスタグラムにアップロードした投稿をリポストしても大丈夫ですか？
+            </legend>
+            <div class="form-group radio">
+              <div class="radio">
+                <label>
+                  <input
+                    type="radio"
+                    name="entry.1110392977"
+                    value="はい"
+                    required
+                  />
+                  <span>はい</span>
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input
+                    type="radio"
+                    name="entry.1110392977"
+                    value="いいえ"
+                    required
+                  />
+                  <span>いいえ</span>
+                </label>
+              </div>
+            </div>
+          </fieldset>
+
+          <input type="hidden" name="fvv" value="1" />
+          <input type="hidden" name="fbzx" value="-5229565504393170790" />
+          <!--
+        CAVEAT: In multipages (multisection) forms, *pageHistory* field tells to google what sections we've currently completed.
+        This usually starts as "0" for the first page, then "0,1" in the second page... up to "0,1,2..N" in n-th page.
+        Keep this in mind if you plan to change this code to recreate any sort of multipage-feature in your exported form.
+        We're setting this to the total number of pages in this form because we're sending all fields from all the section together.
+    -->
+          <input type="hidden" name="pageHistory" value="0" />
+          <div class="btnWrapper">
+            <input class="btn btn-primary" type="submit" value="提出して応募" />
+          </div>
+        </form>
+      </div>
     </div>
+    <script src="src/js/form.js"></script>
   </body>
 </html>

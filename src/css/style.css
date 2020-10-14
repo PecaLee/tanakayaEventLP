@@ -158,6 +158,77 @@ img {
   align-self: start;
 }
 
+.raffle_box {
+  padding: 0 8pt;
+  color: #fff;
+}
+
+fieldset {
+  margin: 24pt 0;
+}
+
+fieldset legend {
+  line-height: 1.5rem;
+}
+
+fieldset .form-group input {
+  margin-top: 8pt;
+  width: 100%;
+  height: 2.5rem;
+  font-size: 1.4rem;
+  color: #0d0d0d;
+}
+
+fieldset .form-group input[type="text"] {
+  border-radius: 4pt;
+}
+
+fieldset .form-group input[type="radio"] {
+  height: 1.5rem;
+}
+
+fieldset .form-group.radio {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+fieldset .form-group.radio .radio {
+  margin-top: 8pt;
+  text-align: center;
+}
+
+fieldset .form-group.radio .radio label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+fieldset .form-group.radio .radio label span {
+  margin-top: 6pt;
+}
+
+.btnWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn.btn-primary {
+  height: 3rem;
+  width: 60%;
+  letter-spacing: 1.5px;
+  font-size: 2rem;
+  font-family: "M PLUS 1p", sans-serif;
+  font-weight: 800;
+  color: #0d0d0d;
+  background-color: #db4141;
+  margin-top: 16pt;
+  margin-bottom: 32pt;
+  border: none;
+  border-radius: 50pt;
+  outline: none;
+}
+
 .pc {
   position: fixed;
   z-index: 3;
@@ -171,6 +242,32 @@ img {
   color: #fff;
   font-weight: 800;
   font-size: 1.5rem;
+}
+
+.thxWrapper {
+  position: fixed;
+  z-index: 3;
+  width: 100vw;
+  height: 100vh;
+  background-color: #0d0d0d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.thxWrapper h2 {
+  font-size: 2rem;
+  margin-bottom: 32pt;
+}
+
+.thxWrapper a {
+  margin-top: 16pt;
+  font-size: 1.2rem;
+  color: #b6b6b6;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
