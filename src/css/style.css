@@ -129,7 +129,7 @@ img {
 
 .howto_box .innerBox:last-child .innerLinebox ul li:first-child {
   text-align: center;
-  padding: 24pt 0;
+  padding-top: 24pt;
 }
 
 .info_box .innerBox:first-child .innerLinebox {
@@ -156,4 +156,25 @@ img {
 
 .info_box .innerBox:last-child .innerLinebox ul li:last-child {
   align-self: start;
+}
+
+.pc {
+  position: fixed;
+  z-index: 3;
+  width: 100vw;
+  height: 100vh;
+  background-color: #0d0d0d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .pc {
+    display: none;
+  }
 }
