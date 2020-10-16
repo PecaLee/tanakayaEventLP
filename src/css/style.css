@@ -266,8 +266,15 @@ fieldset .form-group.radio .radio label span {
 
 .thxWrapper a {
   margin-top: 16pt;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #b6b6b6;
+}
+
+strong {
+  color: red;
+}
+.requiredTag {
+  margin-top: 8pt;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
