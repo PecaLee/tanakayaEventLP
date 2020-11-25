@@ -297,6 +297,17 @@ strong {
   align-items: center;
 }
 
+.innerLinebox.howto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerLinebox.howto h3 {
+  padding: 16pt 0;
+  line-height: 18pt;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
   .pc {
     display: none;
